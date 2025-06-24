@@ -15,8 +15,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/RadmirDark/image_app_practice.git
+cd ./image_app_practice
 ```
 
 2. Создайте и активируйте виртуальное окружение (пример с venv):
