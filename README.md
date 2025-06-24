@@ -15,7 +15,9 @@ pip install -r requirements.txt
 
 ## Запуск приложения
 
+```bash
 python app.py
+```
 
 ## Как использовать
 
