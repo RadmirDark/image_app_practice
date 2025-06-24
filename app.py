@@ -10,9 +10,9 @@ root.withdraw()  # Скрываем главное окно tkinter
 
 def load_image():
     print("Откроется окно для выбора изображения (png или jpg)")
-    root.attributes('-topmost', True)  # Сделать окно выбора файла сверху
+    root.attributes('-topmost', True)
     path = askopenfilename(filetypes=[("Image files", "*.png *.jpg *.jpeg")], title="Выберите изображение")
-    root.attributes('-topmost', False)  # Снять флаг верхнего окна
+    root.attributes('-topmost', False)
     if not path:
         print("Файл не выбран")
         return None
