@@ -26,8 +26,9 @@ source venv/bin/activate    # Linux/macOS
 venv\Scripts\activate       # Windows
 ```
 
-3. Установите зависимости:
+3. Установите зависимости и обновите pip:
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
